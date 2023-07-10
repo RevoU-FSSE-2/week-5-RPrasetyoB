@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10em;
+    border-bottom: solid 1px black;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: row;
+    content: icon;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+header .logo img {
+    width: 60px;
+}
+
+header .logo p {
+    font-size: 30px;
+    font-weight: 700;
+    align-self: self-end;
+}
+
+header .nav-bar {
+    display: flex;
+    gap: 1em;
+    font-size: 20px;
+}
+
+header .nav-bar ul{
+    display: flex;
+    list-style: none;
+    gap: 4em;
+    font-weight: 800;
+}
