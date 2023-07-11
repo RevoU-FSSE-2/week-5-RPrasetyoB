@@ -13,17 +13,18 @@ body {
     background-image: url(/assets/fabric-scaled-1.webp);
 
 }
+/* =============== header ================ */
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    height: 60px;
+    height: 80px;
     border-bottom: solid 1px black;
     position: fixed;
     z-index: 1;
-    background-color: rgb(247, 247, 233);
+    background-color: rgb(234, 242, 252);
     width: 100%
 }
 
@@ -61,7 +62,7 @@ header .nav-bar ul{
 }
 
 
-/* main section */
+/* ================= main section =================*/
 
 /* home section */
 main #home {
@@ -69,7 +70,7 @@ main #home {
     text-align: center;
     width: 100%;
     box-sizing: border-box;
-    padding-top: 60px;
+    padding-top: 80px;
 }
 
 main #home img {
@@ -88,15 +89,17 @@ main .border {
     margin-right: auto;
     text-align: center;
     align-items: center;
-    max-width: 90vw;
-    border-style: double;
-    border-top: none;
-    border-bottom: none;
+    max-width: 80vw;
     background-color: rgba(232, 232, 235, 0.76);
+    padding-bottom: 40px;
 }
 
 main .border h1 {
     padding: 40px 5px
+}
+
+main .border h2 {
+    text-transform: uppercase ;
 }
 
 main .border hr {
@@ -107,6 +110,7 @@ main .border hr {
 main .border p {
     padding: 20px 5px;
     font-weight: 550;
+    letter-spacing: 1px;
 }
 
 main .border figure {
@@ -132,3 +136,24 @@ main .border figure figcaption {
 
 /* product section */
 
+.module {
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.module::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-image: url(/assets/rolled-fabric.jpg);
+    filter: brightness(50%);
+    object-fit: cover;
+}
+
+.module-inside {
+    position: relative;
+    color: azure;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
