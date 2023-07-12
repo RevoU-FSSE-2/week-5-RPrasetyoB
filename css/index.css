@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
     line-height: 25px;
 }
@@ -65,15 +65,44 @@ header .nav-bar ul{
 /* ================= main section =================*/
 
 /* home section */
-main #home {
-    align-items: center;
+main .container {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    width: 100%;
-    box-sizing: border-box;
-    padding-top: 80px;
+    align-items: center;
+    max-width: 80vw;
+    background-color: rgba(232, 232, 235, 0.76);
+    padding-bottom: 40px;
 }
 
-main #home img {
+main .container h1 {
+    padding: 40px 5px
+}
+
+main .container h2 {
+    text-transform: uppercase ;
+}
+
+main .container hr {
+    width: 40vw;
+    margin: auto;
+}
+
+main .container p {
+    padding: 20px 5px;
+    font-weight: 550;
+    letter-spacing: 1px;
+}
+
+#home {
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 80px;
+    margin: auto;
+}
+
+#home img {
     height: auto;
     width: 100vw;
     overflow: clip;
@@ -84,43 +113,14 @@ main #home img {
 
 }
 
-main .border {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    align-items: center;
-    max-width: 80vw;
-    background-color: rgba(232, 232, 235, 0.76);
-    padding-bottom: 40px;
-}
-
-main .border h1 {
-    padding: 40px 5px
-}
-
-main .border h2 {
-    text-transform: uppercase ;
-}
-
-main .border hr {
-    width: 40vw;
-    margin: auto;
-}
-
-main .border p {
-    padding: 20px 5px;
-    font-weight: 550;
-    letter-spacing: 1px;
-}
-
-main .border figure {
+main .container figure {
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
 }
 
-main .border figure img {
+main .container figure img {
     margin-left: auto;
     margin-right: auto;
     width: 600px;
@@ -129,19 +129,19 @@ main .border figure img {
     object-fit: cover;
 }
 
-main .border figure figcaption {
+main .container figure figcaption {
     padding: 10px 0;
     text-decoration: underline;
 }
 
 /* product section */
 
-.module {
+#product .module {
     position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-.module::before {
+#product .module::before {
     content: "";
     position: absolute;
     top: 0; left: 0;
@@ -151,9 +151,78 @@ main .border figure figcaption {
     object-fit: cover;
 }
 
-.module-inside {
+#product .module-inside {
     position: relative;
     color: azure;
     font-size: 20px;
     letter-spacing: 1px;
+}
+
+#product h2 {
+    padding: 40px 2px
+}
+
+#product .slider {
+    padding: 10px 10px;
+    max-height: 100vh;
+}
+
+#product .wrapper {
+    max-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    transition: 1s;
+    gap: 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+#product .carousel {
+    margin: 0 16px -4px 0;
+    min-height: 150px;
+}
+
+#product .carousel img {
+    width: 250px;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+}
+
+#product .carousel img:first-child {
+    margin-left: 0px;
+}
+
+#product .prev, .next {
+    background-color: #c5c1c1;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    padding: 16px;
+    color: rgb(34, 32, 32);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    z-index: 1;
+}
+
+#product .prev {
+    left: 0;
+}
+
+#product .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+#product .prev:hover, .next:hover {
+    background-color: rgba(110, 107, 107, 0.8);
+}
+
+#product figcaption {
+    color: #0a0a0a;
 }
