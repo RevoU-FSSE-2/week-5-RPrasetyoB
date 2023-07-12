@@ -136,12 +136,12 @@ main .container figure figcaption {
 
 /* product section */
 
-#product .module {
+.container .module {
     position: relative;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-#product .module::before {
+.container .module::before {
     content: "";
     position: absolute;
     top: 0; left: 0;
@@ -151,51 +151,48 @@ main .container figure figcaption {
     object-fit: cover;
 }
 
-#product .module-inside {
+.container .module-inside {
     position: relative;
     color: azure;
     font-size: 20px;
     letter-spacing: 1px;
 }
 
-#product h2 {
+.container h2 {
     padding: 40px 2px
 }
 
-#product .slider {
-    padding: 10px 10px;
+.container .slider {
+    padding: 10px 0;
     max-height: 100vh;
+    position: relative;
 }
 
-#product .wrapper {
+.container .wrapper {
+    scroll-behavior: smooth;
     max-height: calc(100vh - 80px);
     display: flex;
     flex-direction: row;
     padding: 0;
     margin: 0;
     transition: 1s;
-    gap: 16px;
+    gap: 34px;
     overflow: hidden;
-    position: relative;
 }
 
-#product .carousel {
-    margin: 0 16px -4px 0;
+.container .carousel {
+    margin: 0 16px;
     min-height: 150px;
 }
 
-#product .carousel img {
+.container .carousel img {
     width: 250px;
     max-width: 250px;
     height: auto;
     object-fit: cover;
 }
 
-#product .carousel img:first-child {
-    margin-left: 0px;
-}
-
-#product .prev, .next {
+.container .prev, .next {
     background-color: #c5c1c1;
     cursor: pointer;
     position: absolute;
@@ -210,19 +207,20 @@ main .container figure figcaption {
     z-index: 1;
 }
 
-#product .prev {
+.container .prev {
     left: 0;
+    border-radius: 3px 0 0 3px;
 }
 
-#product .next {
+.container .next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
 
-#product .prev:hover, .next:hover {
+.container .prev:hover, .next:hover {
     background-color: rgba(110, 107, 107, 0.8);
 }
 
-#product figcaption {
+.container figcaption {
     color: #0a0a0a;
 }
