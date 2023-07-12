@@ -71,7 +71,7 @@ main .container {
     text-align: center;
     align-items: center;
     max-width: 80vw;
-    background-color: rgba(232, 232, 235, 0.76);
+    background-color: rgba(232, 232, 235, 0.411);
     padding-bottom: 40px;
 }
 
