@@ -505,7 +505,40 @@ main p {
     margin: 4px 0;
     font-size: .8em;
     padding: 0 4px;
+    border-radius: 5px;
 }
+
+.contact button:hover{
+    color: rgb(253, 106, 106);
+}
+
+.contact button:active {
+    background-color: rgb(0, 105, 105);
+}
+
+/*====================== footer ====================  */
+
+footer {
+    width: 100%;
+    padding: 30px 30px;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: aliceblue;
+    text-align: center;
+}
+
+footer a {
+    color: aliceblue;
+}
+
+footer .privacy {
+    padding-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    font-size: 0.8em;
+    text-align: center;
+    justify-content: center;
+}
+
 
 @media only screen and (min-width: 425px) {
     main p {
@@ -558,29 +591,6 @@ main p {
     .contact textarea {
         font-size: 1em;
     }
-}
-
-/*====================== footer ====================  */
-
-footer {
-    width: 100%;
-    padding: 30px 30px;
-    background-color: rgba(0, 0, 0, 0.685);
-    color: aliceblue;
-    text-align: center;
-}
-
-footer a {
-    color: aliceblue;
-}
-
-footer .privacy {
-    padding-bottom: 20px;
-    display: flex;
-    gap: 10px;
-    font-size: 0.8em;
-    text-align: center;
-    justify-content: center;
 }
 
 @media only screen and (min-width: 650px) {
