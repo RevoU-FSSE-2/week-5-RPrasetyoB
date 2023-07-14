@@ -36,3 +36,11 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 ## Dev tools
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
 
+## Deployment
+
+- I bought custom domain at niagahoseter.co.id
+- Doployed Repository to netlify.com
+- Customized And Setting DNS at cloudflare.com and connect it to netlify.com<br>
+![deploy](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/5a7bf58b-1c35-4d6a-99f5-1c1eb37c2163)
+
+
