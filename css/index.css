@@ -9,13 +9,7 @@
     scroll-behavior: smooth;
 }
 
-html {
-    overflow-x: hidden;
-}
-
 body {
-    display: flex;
-    flex-direction: column;
     width: 100%;
     background-image: url(/assets/fabric-scaled-1.webp);
 }
@@ -25,13 +19,11 @@ body {
 .box {
     transform: translateX(100vw);
     transition: transform 0.4s ease;
-    overflow-x: hidden;
 }
 
 .boxleft {
     transform: translateX(-100vw);
     transition: transform 0.4s ease;
-    overflow-x: hidden;
 }
 
 .show {
@@ -234,6 +226,7 @@ header label {
     max-width: 85vw;
     background-color: rgba(232, 232, 235, 0.411);
     padding-bottom: 30px;
+    overflow-x: hidden;
 }
 
 main h2 {
