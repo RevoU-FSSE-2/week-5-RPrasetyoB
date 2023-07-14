@@ -465,6 +465,7 @@ main p {
     font-size: 0.8em;
     padding: 1px 5px;
     margin: 5px 0;
+    border-radius: 3px;
 }
 
 .contact textarea {
@@ -472,6 +473,7 @@ main p {
     font-size: 0.8em;
     padding: 1px 5px;
     margin-bottom: 10px;
+    border-radius: 3px;
 }
 
 .contact button {
@@ -712,6 +714,11 @@ main p {
 
     .about .innovation {
         padding-top: 40px;
+        gap: 40px;
+    }
+
+    .about .innovation img {
+        width: 400px;
     }
 
     .contact {
