@@ -9,11 +9,15 @@
     scroll-behavior: smooth;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-image: url(/assets/fabric-scaled-1.webp);
-    overflow-x: hidden !important;
-    overflow-y: auto;
 }
 
 /* ============= scroll event ============= */
@@ -31,7 +35,7 @@ body {
 }
 
 .show {
-    transform: translateX(0);    
+    transform: translateX(0);   
 }
 
 /* =============== header ================ */
