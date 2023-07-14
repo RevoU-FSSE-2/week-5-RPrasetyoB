@@ -40,11 +40,11 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 ![css](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/ffd68c83-ac96-4547-9bc1-a1c5313291b2)
 
 - Transition JavaScript :<br>
-![js](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/2187935b-233f-47fa-98a1-0541ec9f24eb)
+![js](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/bc4d9325-d517-45be-bead-544133b7f626)
 
 ## Deployment
 
-- I bought custom domain at niagahoseter.co.id
+- I bought custom domain at niagahoster.co.id
 - Doployed Repository to netlify.com
 - Customized And Setting DNS at cloudflare.com and connect it to website that i deployed at netlify.com<br>
 ![deploy](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/5a7bf58b-1c35-4d6a-99f5-1c1eb37c2163)
