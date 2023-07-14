@@ -16,7 +16,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 ![about](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/3cec1361-020a-4f77-ad56-c6a93c00b002)
 ![contact](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/83e7f816-1a36-441b-b8e6-a14ab3662915)
 
-- Footer
+- Footer<br>
   ![foot](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/cd81ec56-eecf-4fc5-81d9-7c702f8d5162)
 
 ### Website information
