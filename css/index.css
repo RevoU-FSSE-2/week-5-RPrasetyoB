@@ -560,6 +560,29 @@ main p {
     }
 }
 
+/*====================== footer ====================  */
+
+footer {
+    width: 100%;
+    padding: 30px 30px;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: aliceblue;
+    text-align: center;
+}
+
+footer a {
+    color: aliceblue;
+}
+
+footer .privacy {
+    padding-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    font-size: 0.8em;
+    text-align: center;
+    justify-content: center;
+}
+
 @media only screen and (min-width: 650px) {
     .nav-mobile {
         width: 30vw;
