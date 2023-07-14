@@ -28,10 +28,10 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 
 ### Google lighthouse score's
 - Desktop : <br>
-![dekstop](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/14197ddb-e366-48bd-8850-679a7a4525c6)
+![desktop](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/7862a5b4-3105-4847-9785-bb3b59ba57f4)
 
 - Mobile : <br>
-![mobile](https://github.com/RevoU-FSSE-2/week-4-RPrasetyoB/assets/129088807/59c7fd10-ba1c-47a1-8685-d1adf44a7c5f)
+![mobile](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/927d5450-6c01-4572-a1b2-da6a3cde559d)
 
 ## Dev tools
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
