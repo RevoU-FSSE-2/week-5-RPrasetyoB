@@ -80,8 +80,8 @@ main h2 {
 main p {
     padding: 20px 10px;
     font-weight: 50;
-    font-size: 0.5em;
-    line-height: 10px;
+    font-size: 0.8em;
+    line-height: 15px;
     letter-spacing: 0.5px;
 }
 
@@ -279,7 +279,7 @@ main p {
 
 .about .research {
     padding: 2px 5px;
-    text-align: justify;
+    text-align: left;
 }
 
 .about .research h3 {
@@ -327,16 +327,16 @@ main p {
 }
 
 .contact input {
-    width: 70vw;
-    font-size: 0.5em;
-    padding: 0 5px;
+    width: 60vw;
+    font-size: 0.8em;
+    padding: 1px 5px;
     margin: 5px 0;
 }
 
 .contact textarea {
-    width: 70vw;
-    font-size: 0.5em;
-    padding: 0 5px;
+    width: 60vw;
+    font-size: 0.8em;
+    padding: 1px 5px;
 }
 
 .contact button {
@@ -347,7 +347,7 @@ main p {
 
 @media only screen and (min-width: 425px) {
     main p {
-        font-size: 0.7em;
+        font-size: 0.8em;
         line-height: 15px;
         letter-spacing: .5px;
     }
@@ -365,15 +365,15 @@ main p {
     }
 
     .home figcaption {
-        font-size: .7em;
+        font-size: .8em;
     }
 
     .product .module-inside {
-        font-size: .7em;
+        font-size: .8em;
     }
 
     .product figcaption {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 
     .about .innovation img {
@@ -489,6 +489,32 @@ main p {
         width: 250px;
         height: 200px;
         padding: 10px 10px;
+    }
+
+    .contact {
+        padding: 20px 0;
+    }
+    .contact .address {
+        padding-bottom: 20px;
+    }
+
+    fieldset {
+        padding: 10px 5px;
+        width: 45vw;
+        margin: auto;
+    }
+
+    .contact input {
+        width: 40vw;
+    }
+
+    .contact textarea {
+        width: 40vw;
+    }
+
+    .contact button {
+        font-size: 1.2em;
+        padding: 5px 15px;
     }
 }
 
