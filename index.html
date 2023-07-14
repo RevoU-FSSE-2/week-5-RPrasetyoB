@@ -34,10 +34,10 @@
         </div>
     </header>
     <main>
-        <section calss="home" id="home">
-            <img src="./assets/slide4-1.jpg" alt="fabric images">
+        <section class="banner" id="home">
+            <img src="./assets/banner.webp" alt="fabric images">
         </section>
-        <section class="container">
+        <section class="home container">
             <h1>
                 HIGH QUALITY FURNISHING FABRICS
             </h1>
@@ -52,7 +52,7 @@
                 <figcaption>High quality product</figcaption>
             </figure>
         </section>
-        <section class="container" id="product">
+        <section class="product container" id="product">
             <div class="module">
                 <p class="module-inside">
                     Indonesian taste and superior quality in the world of interiors.<br>
@@ -65,9 +65,9 @@
             </h2>
             <div class="slider" id="slider">
                 <figure class="wrapper" id="wrapper">
-                    <div class="carousel">
-                        <img src="./assets/product/BIEL-100-3.jpg">
-                        <figcaption>Biel-100-3</figcaption>
+                    <div class="carousel first">
+                        <img src="./assets/product/BIEL-100-3.jpg" class="first">
+                        <figcaption class="first">Biel-100-3</figcaption>
                     </div>
                     <div class="carousel">
                         <img src="./assets/product/BIEL-100-4.jpg">
@@ -102,29 +102,31 @@
                 </figure>
             </div>
         </section>
-        <section class="container" id="about">
-            <h2>
-                about us
-            </h2>
+        <section class="about container" id="about">
+            <div class="module">
+                <h2 class="module-inside">
+                    about us
+                </h2>
+            </div>
             <div class="innovation">
-                <div>
+                <div class="research">
                     <h3>
                         innovation and research
                     </h3>
                     <p>
                         Our collections are the result of the world famous indonesian creativity.
                         <br>
-                        <br>
                         Looking forward a continuous innovation, always preserving our basic and simple style. <br>
                         We aim to offer the best quality-price ratio, thanks to a very short distribution chain.
                     </p>
-                </div>
+                </div>                    
+                <img src="./assets/about-innovation.jpg" alt="fabric quality photo">
             </div>
         </section>
-        <section class="container" id="contact">
+        <section class="contact container" id="contact">
             <div class="address">
-                <h3>
-                    PT. Re.store
+                <h4>
+                    Re.store
                 </h3>
                 <p>
                     Srigunting street No.64<br>
@@ -135,7 +137,7 @@
                         Phone. <u>+8659161134</u>
                     </li>
                     <li>
-                        E-mail. <u>commersial@retore.com</u>
+                        E-mail. <u>commersial@re-store.com</u>
                     </li>
                 </ul>
             </div>
@@ -148,6 +150,7 @@
                     <label for="email"></label>
                     <textarea rows="6" cols="20" aria-invalid="false" name="your-message" placeholder="Your message..."></textarea>
                 </fieldset>
+                <button type="submit">Submit</button>
             </form>
         </section>
     </main>

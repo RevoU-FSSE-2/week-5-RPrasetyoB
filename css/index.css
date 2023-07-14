@@ -5,13 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 body {
     width: 100%;
     background-image: url(/assets/fabric-scaled-1.webp);
-
 }
 /* =============== header ================ */
 
@@ -20,10 +19,10 @@ header {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    height: 80px;
+    height: 70px;
     border-bottom: solid 1px black;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     background-color: rgb(234, 242, 252);
     width: 100%
 }
@@ -35,15 +34,15 @@ header .logo {
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding-left: 3em;
+    padding-left: 1.5em;
 }
 
 header .logo img {
-    width: 40px;
+    width: 30px;
 }
 
 header .logo p {
-    font-size: 25px;
+    font-size: 1em;
     font-weight: 700;
     align-self: self-end;
 }
@@ -51,176 +50,519 @@ header .logo p {
 header .nav-bar {
     display: flex;
     font-size: 15px;
-    padding-right: 4em;
+    padding-right: 1.5em;
 }
 
 header .nav-bar ul{
-    display: flex;
+    display: none;
     list-style: none;
     gap: 3em;
     font-weight: 800;
 }
 
-
 /* ================= main section =================*/
 
-/* home section */
-main .container {
-    margin-left: auto;
-    margin-right: auto;
+.container {
+    margin: auto;
+    padding: auto;
     text-align: center;
     align-items: center;
-    max-width: 80vw;
+    max-width: 85vw;
     background-color: rgba(232, 232, 235, 0.411);
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
-main .container h1 {
-    padding: 40px 5px
-}
-
-main .container h2 {
+main h2 {
     text-transform: uppercase ;
+    font-size: 1em;
 }
 
-main .container hr {
+main p {
+    padding: 20px 10px;
+    font-weight: 50;
+    font-size: 0.5em;
+    line-height: 10px;
+    letter-spacing: 0.5px;
+}
+
+/* banner section */
+
+.banner img {
+    width: 100vw;
+    overflow-clip-margin: conten-box;
+    object-fit: cover;
+    height: 150px;
+}
+
+.banner {
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+
+
+/* home section */
+.home h1 {
+    padding: 30px 5px;
+    font-size: 1.1em;
+    line-height: 25px;
+}
+
+.home hr {
     width: 40vw;
     margin: auto;
 }
 
-main .container p {
-    padding: 20px 5px;
-    font-weight: 550;
-    letter-spacing: 1px;
-}
 
-#home {
-    align-items: center;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 80px;
-    margin: auto;
-}
-
-#home img {
-    height: auto;
-    width: 100vw;
-    overflow: clip;
-    overflow-clip-margin: conten-box;
-    display: block;
-    object-fit: cover;
-    height: 300px
-
-}
-
-main .container figure {
+.home figure {
     display: flex;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
 }
 
-main .container figure img {
+.home figure img {
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
-    height: 300px;
+    width: 250px;
+    height: 100px;
     border-radius: 5px;
     object-fit: cover;
 }
 
-main .container figure figcaption {
-    padding: 10px 0;
+.home figure figcaption {
+    padding: 5px 0;
     text-decoration: underline;
+    padding-bottom: 20px;
+    font-size: 0.5em;
 }
 
 /* product section */
-
-.container .module {
-    position: relative;
-    padding-top: 60px;
-    padding-bottom: 60px;
+.product {
+    align-items: center;
 }
-.container .module::before {
+
+.product .module {
+    position: relative;
+    padding: 5px 0;
+}
+
+.product .module::before {
     content: "";
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-image: url(/assets/rolled-fabric.jpg);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/rolled.webp);
     filter: brightness(50%);
     object-fit: cover;
 }
 
-.container .module-inside {
+.product .module-inside {
     position: relative;
     color: azure;
-    font-size: 20px;
-    letter-spacing: 1px;
+    font-size: 0,5em;
+    letter-spacing: 0.5px;
+    line-height: 15px;
 }
 
-.container h2 {
-    padding: 40px 2px
+.product h2 {
+    padding: 10px 2px
 }
 
-.container .slider {
+.product .slider {
     padding: 10px 0;
     max-height: 100vh;
     position: relative;
 }
 
-.container .wrapper {
+.product .wrapper {
     scroll-behavior: smooth;
-    max-height: calc(100vh - 80px);
     display: flex;
     flex-direction: row;
     padding: 0;
-    margin: 0;
     transition: 1s;
-    gap: 34px;
     overflow: hidden;
+    gap: 10px;
 }
 
-.container .carousel {
-    margin: 0 16px;
-    min-height: 150px;
+.product .carousel {
+    width: 300vw;    
 }
 
-.container .carousel img {
-    width: 250px;
-    max-width: 250px;
+.product .carousel img {
+    width: 100px;
     height: auto;
     object-fit: cover;
 }
 
-.container .prev, .next {
+.product .prev, .next {
     background-color: #c5c1c1;
     cursor: pointer;
     position: absolute;
-    top: 30%;
-    padding: 16px;
+    top: 25%;
+    padding: 5px;
     color: rgb(34, 32, 32);
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
     z-index: 1;
+    width: 15px;
+    height: 40px;
 }
 
-.container .prev {
+.product .prev {
     left: 0;
     border-radius: 3px 0 0 3px;
+    border: none;
 }
 
-.container .next {
+.product .next {
     right: 0;
     border-radius: 3px 0 0 3px;
+    border: none;
 }
 
-.container .prev:hover, .next:hover {
+.product .prev:hover, .next:hover {
     background-color: rgba(110, 107, 107, 0.8);
 }
 
-.container figcaption {
+.product .prev:active, .next:active {
+    background-color: aqua;
+}
+
+.product figcaption {
     color: #0a0a0a;
+    font-weight: 400;
+    font-size: 0.5em;
+}
+
+/* section about us */
+
+.about {
+    padding: 20px 0;
+}
+
+.about .module {
+    position: relative;
+    padding: 30px 0;
+}
+
+.about .module::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/slide.webp);
+    filter: brightness(50%);
+    object-fit: cover;
+}
+
+.about .module-inside {
+    position: relative;
+    color: azure;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.about .innovation {
+    padding-top: 20px;
+    display: block;
+    justify-content: center;
+    gap: 5px;
+}
+
+.about .research {
+    padding: 2px 5px;
+    text-align: justify;
+}
+
+.about .research h3 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.about .innovation img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* section contact */
+
+.contact {
+    background-color: rgba(152, 152, 155, 0.473);
+    padding: 10px 5px;
+    line-height: 5px;
+}
+
+.contact p {
+   padding: 5px 0;
+} 
+
+.contact ul {
+    list-style: none;
+    justify-content: center;
+    display: inline-block;
+    padding: 0;
+}
+
+.contact li {
+    text-align: left;
+    font-size: 0.7em;
+    line-height: 5px;
+}
+
+.contact legend {
+    font-style: italic;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.contact input {
+    width: 70vw;
+    font-size: 0.5em;
+    padding: 0 5px;
+    margin: 5px 0;
+}
+
+.contact textarea {
+    width: 70vw;
+    font-size: 0.5em;
+    padding: 0 5px;
+}
+
+.contact button {
+    margin: 4px 0;
+    font-size: .8em;
+    padding: 0 4px;
+}
+
+@media only screen and (min-width: 425px) {
+    main p {
+        font-size: 0.7em;
+        line-height: 15px;
+        letter-spacing: .5px;
+    }
+
+    .home h1 {
+        padding: 10px;
+    }
+
+    .home p {
+        padding: 10px 20px;
+    }
+
+    .home figure img {
+        height: 150px
+    }
+
+    .home figcaption {
+        font-size: .7em;
+    }
+
+    .product .module-inside {
+        font-size: .7em;
+    }
+
+    .product figcaption {
+        font-size: 0.6em;
+    }
+
+    .about .innovation img {
+        width: 280px;
+        height: 150px;
+    }
+
+    .contact p {
+        line-height: 15px;
+    }
+    
+    .contact li {
+        font-size: 1em;
+    }
+
+    .contact input {
+        font-size: 1em;
+    }
+
+    .contact textarea {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 650px) {
+    main p {
+        font-size: 0.9em;
+        line-height: 20px;
+        letter-spacing: .5px;
+    }
+
+    main h2 {
+        font-size: 1.3em;
+    }
+
+    header .logo {
+        padding-left: 6vw;
+    }
+
+    header .logo img {
+        width: 40px;
+    }
+
+    header .logo p {
+        font-size: 1.5em;
+    }
+
+    .banner img {
+        height: 250px;
+    }
+
+    .home h1 {
+        font-size: 1.5em;
+    }
+
+    .home p {
+        padding: 30px 0;
+    }
+
+    .home figure img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .home figure figcaption {
+        font-size: .9em;
+    }
+
+    .product .module-inside {
+        padding: 30px 0;
+        font-size: 1.1em;
+        line-height: 25px;
+    }
+
+    .product .carousel img {
+        width: 150px;
+    }
+
+    .product .prev, .next {
+        top: 30%;
+        padding: 5px;
+        font-size: 20px;
+        width: 30px;
+        height: 50px;
+    }
+
+    .product figcaption {
+        font-size: 0.9em;
+    }
+
+    .about .module-inside {
+        font-size: 1.2em;
+        padding: 20px 0;
+    }
+
+    .about .innovation {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .about .research {
+        max-width: 350px;
+        text-align: left;
+    }
+
+    .about .research h3 {
+        font-size: 1em;
+        text-align: left;
+        padding: 5px 10px;
+    }
+
+    .about .innovation img {
+        width: 250px;
+        height: 200px;
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    header {
+        height: 80px;
+    }
+
+    header .nav-bar {
+        padding-right: 4vw;
+    }
+
+    header .nav-bar ul {
+        display: flex;
+    }
+
+    .banner img {
+        height: 350px;
+        padding-top: 20px;
+    }
+
+    .home h1 {
+        padding: 40px 0;
+    }
+
+    .product {
+        padding: 60px 0;
+        height: 650px;
+    }
+
+    .product h2 {
+        padding-top: 60px;
+    }
+
+    .product .carousel img {
+        width: 200px;
+    }
+
+    .product .prev, .next {
+        top: 35%;
+    }
+
+    .about {
+        padding: 40px 0;
+        height: 600px;
+    }
+
+    .about .innovation {
+        padding-top: 40px;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        gap: 8vw;
+        padding: 50px 0;
+    }
+
+    .contact .address {
+        text-align: left;
+        align-self: flex-start;
+        padding-top: 20px;
+    }
+
+    fieldset {
+        width: 35vw;
+        padding: 20px 10px;
+    }
+
+    .contact input {
+        width: 30vw;
+    }
+
+    .contact textarea {
+        width: 30vw;
+    }
 }
