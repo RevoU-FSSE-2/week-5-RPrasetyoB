@@ -20,11 +20,12 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
   ![foot](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/cd81ec56-eecf-4fc5-81d9-7c702f8d5162)
 
 ### Website information
+- Use font import from google font
 - Build from mobile first
 - Transition use CSS and JS
 - Link hover and button active
 - Website responsive for all devices width between 1440px to 320px
-- I use smooth scroll page when button navigation clicked and scrolling page
+- I use smooth scrolling when button navigation clicked and scrolling page
 
 ### Google lighthouse score's
 - Desktop : <br>
