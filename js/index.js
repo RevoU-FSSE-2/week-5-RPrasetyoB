@@ -1,3 +1,7 @@
+document.getElementById('toggle').addEventListener('click', function(){
+    document.getElementById('nav-mobile').classList.toggle('active');
+})
+
 var back = document.getElementById('prev');
 back.onclick = function () {
     var container = document.getElementById('wrapper');
@@ -9,4 +13,5 @@ button.onclick = function () {
     var container = document.getElementById('wrapper');
     container.scrollLeft += 290;
 };
+
 

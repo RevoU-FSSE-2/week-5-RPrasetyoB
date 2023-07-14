@@ -17,24 +17,40 @@
         <div class="nav-bar">
             <ul>
                 <li>
-                    HOME
+                    <a href="#home">HOME</a>
                 </li>
                 <li>
-                    COLLECTION
+                    <a href="#product">PRODUCT</a>
                 </li>
                 <li>
-                    ABOUT US
+                    <a href="#about">ABOUT</a>
                 </li>
                 <li>
-                    CONTACT
+                    <a href="#contact">CONTACT</a>
                 </li>
             </ul>
             <input type="checkbox" class="burger" id="burger">
-            <label for="burger" class="toggle">i
+            <label for="burger" class="toggle" id="toggle">i
                 <span class="top-line common"></span>
                 <span class="mid-line common"></span>
                 <span class="bot-line common"></span>
             </label>
+        </div>
+        <div class="nav-mobile" id="nav-mobile">
+            <ul class="sideBar">                
+                <li>
+                    <a href="#home">HOME</a>
+                </li>
+                <li>
+                    <a href="#product">PRODUCT</a>
+                </li>
+                <li>
+                    <a href="#about">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#contact">CONTACT</a>
+                </li>
+            </ul>
         </div>
     </header>
     <main>
@@ -53,10 +69,10 @@
             </p>
             <figure>
                 <img src="./assets/fibers.jpg" alt="red fabric image">
-                <figcaption>High quality product</figcaption>
+                <figcaption id="product">High quality product</figcaption>
             </figure>
         </section>
-        <section class="product container" id="product">
+        <section class="product container">
             <div class="module">
                 <p class="module-inside">
                     Indonesian taste and superior quality in the world of interiors.<br>
@@ -147,9 +163,7 @@
             </div>
             <form>
                 <fieldset>
-                    <legend>
-                        Contact us
-                    </legend>
+                    <legend> CONTACT US </legend>
                     <input type="email" placeholder="E-mail" id="email">
                     <label for="email"></label>
                     <textarea rows="6" cols="20" aria-invalid="false" name="your-message" placeholder="Your message..."></textarea>
