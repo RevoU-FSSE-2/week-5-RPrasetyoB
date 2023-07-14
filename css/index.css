@@ -414,6 +414,7 @@ main p {
     display: block;
     justify-content: center;
     gap: 5px;
+    padding-bottom: 40px;
 }
 
 .about .research {
