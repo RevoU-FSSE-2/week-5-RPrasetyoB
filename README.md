@@ -36,6 +36,12 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 ## Dev tools
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js)](https://skills.thijs.gg)
 
+- Transition CSS :<br>
+![css](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/ffd68c83-ac96-4547-9bc1-a1c5313291b2)
+
+- Transition JavaScript :<br>
+![js](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/2187935b-233f-47fa-98a1-0541ec9f24eb)
+
 ## Deployment
 
 - I bought custom domain at niagahoseter.co.id
