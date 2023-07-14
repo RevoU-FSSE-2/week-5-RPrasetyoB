@@ -12,18 +12,20 @@
 body {
     width: 100%;
     background-image: url(/assets/fabric-scaled-1.webp);
+    overflow-x: hidden !important;
+    overflow-y: auto;
 }
 
 /* ============= scroll event ============= */
 
 .box {
-    transform: translateX(400vw);
+    transform: translateX(100vw);
     transition: transform 0.4s ease;
     overflow-x: hidden;
 }
 
 .boxleft {
-    transform: translateX(-400vw);
+    transform: translateX(-100vw);
     transition: transform 0.4s ease;
     overflow-x: hidden;
 }
