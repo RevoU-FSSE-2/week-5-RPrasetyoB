@@ -40,7 +40,7 @@ Website deployment: <a href="https://renaldipb.site/" target="_blank">Click here
 ![css](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/ffd68c83-ac96-4547-9bc1-a1c5313291b2)
 
 - Transition JavaScript :<br>
-![js](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/2187935b-233f-47fa-98a1-0541ec9f24eb)
+![js](https://github.com/RevoU-FSSE-2/week-5-RPrasetyoB/assets/129088807/bc4d9325-d517-45be-bead-544133b7f626)
 
 ## Deployment
 
